@@ -41,11 +41,20 @@
 <ul>
     <li><a href="#What_db">Database Definition</a>
         <ul>
-            <li><a href="#Pros_of_Database">Pros of Database</a></li>
             <li><a href="#type_data">Types of Data</a></li>
+            <li><a href="#Pros_of_Database">Pros of Database</a></li>
         </ul>
     </li>
-    <li><a href="#his_db">History</a></li>
+    <li><a href="#his_db">History</a>
+        <ul>
+            <li><a href="#s1960s">1960s</a></li>
+            <li><a href="#s1970s">1970s</a></li>
+            <li><a href="#s1980s">1980s</a></li>
+            <li><a href="#s1990s">1990s</a></li>
+            <li><a href="#s2000s">2000s</a></li>           
+             <li><a href="#s2010s">2010s</a></li>
+        </ul>
+    </li>
     <li><a href="#SQL">SQL</a></li>
     <li><a href="#life_cycle">Database Life Cycle</a></li>
     <li><a href="#diff_db_sheet">Difference Between Database & Spreadsheet</a></li>
@@ -88,7 +97,7 @@
 - **Database** is an organized collection of **structured information**, or **data**, typically stored in a **computer system**. 
 <br>
 
-- **Database** is usually controlled by a **[Database Management System (DBMS)](#what-is-a-database-management-system-dbms)**. Together, the **data** and the **DBMS**, along with the applications that are associated with them, are referred to as a **database system**, often shortened to just **database**.
+- **Database** is usually controlled by a **[Database Management System (DBMS)](#DBMS)**. Together, the **data** and the **DBMS**, along with the applications that are associated with them, are referred to as a **database system**, often shortened to just **database**.
 <br>
 
 - **Data** within the most common types of databases in operation today is typically modeled in **rows** and **columns** in a series of tables to make **processing** and **data querying efficient**.
@@ -124,26 +133,30 @@
 - Organized
 
 
-> Most **databases** use **[structured query language (SQL)](#SQL)** for writing and querying data.
+> Most **databases** use **[Structured Query Language (SQL)](#SQL)** for writing and querying data.
 
 <div align="right"><a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
 
 <h2 id="his_db">History of Database</h2>
+
+<span id="s1960s"></span>
 
 - ### The 1960s – Beginnings
   - **Charles Bachman** designed the first **computerised database** in the **early 1960s**.
   - This **first database** was known as the **Integrated Data Store**, or **IDS**.
   - **Computerised database** & **IDS** were forerunners of the **Navigational Database**.
   - **Navigational databases** required users to **navigate** through the entire database to find the information they wanted. There were two main models of this:
-    - ##### Hierarchical
+    - #### Hierarchical
       - Hierarchical model was developed by **IBM**.
       - Data was organised in a **tree-like structure**.
       - Each data entry has a **parent record**, starting with a root record.
-    - ##### Network
+    - #### Network
       - Released at the **Conference on Data Systems Languages (CODASYL)**.
       - Data was organised in a **graph-like structure**.
       - Differed from the **hierarchical model** in that it allowed a record to have more **than one parent and child record**.
-<br>
+
+<div align="right"><a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
+<span id="s1970s"></span>
 
 - ### The 1970s – Relational Databases
   - **E. F. Codd** released his paper **“A Relational Model of Data for Large Shared Data Banks”**
@@ -155,9 +168,11 @@
   - **INGRES** by **Michael Stonebreaker** and **Eugene Wong** at the University of California, Berkeley. **INGRES**, short for **Interactive Graphics and Retrieval System**, was a **relational database model**, proving the viability of Codd’s ideas.
     - **INGRES** used a query language called **QUEL**.
   <br>
-  
+
   - **IBM** then released their take on a **relational database**. Known as **System R**, it was the first in the history of databases to use **structured query language (SQL)**.
-<br>
+
+<div align="right"><a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
+<span id="s1980s"></span>
 
 - ### The 1980s – Growth & Standardisation
   - The 1980s in the history of databases marked a time of growth. Particularly, it was the time of growth for the relational database model. Earlier navigational models faded, while the commercialisation of relational systems saw this type of database rise in use and popularity.
@@ -168,7 +183,8 @@
 
   - Another noteworthy event for the history of databases was the emergence of **Object-oriented database management systems (OODBMS)**. This concept appeared in the **mid-80s**. **Object databases** would view data as **‘objects’**. They would work with programming languages that supported the ‘object-oriented’ approach.
 
-<br>
+<div align="right"><a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
+<span id="s1990s"></span>
 
 - ### The 1990s – The Internet
   - The early days of object-oriented database management did not see the idea as a popular one. This was partially due to the costs and time it would take to rewrite existing databases to support the approach. However, object oriented database systems grow more popular in the 90s.
@@ -179,7 +195,8 @@
 
   - A notable outcome of this was the creation of **MySQL** in **1995**, which was open source. This meant that it provided an alternative to the database systems offered by big companies like Oracle and Microsoft. MySQL is still used by many today. 
 
-<br>
+<div align="right"><a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
+<span id="s2000s"></span>
 
 - ### The 2000s – NoSQL
   - In 1998, the term NoSQL (not only structured query language) was coined. It refers to databases that use query language other than SQL to store and retrieve data. NoSQL databases are useful for unstructured data, and they saw a growth in the 2000s.
@@ -187,7 +204,8 @@
 
   - This is a notable development in the history of databases because NoSQL allowed for faster processing of larger, more varied datasets. NoSQL databases are more flexible than the traditional relational databases that had risen the decade before.
   
-<br>
+<div align="right"><a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
+<span id="s2010s"></span>
 
 - ### The 2010s – Distributed Databases & Cybersecurity
   - The 2010s were a decade of increased data awareness, with the rise of **big data** and an increased emphasis on data protection. And these trends naturally inform the history of databases. 
@@ -218,22 +236,22 @@ Like everything else, databases have a finite lifespan. The most successful data
 <img src="Pic/lifetime.png">
 <br>
 
-#### 1. Stablishing requirements
+### 1. Stablishing requirements
    - Involves consultation with, and agreement among, **stakeholders** as to what they want of a system, expressed as a statement of requirements.
 
-#### 2. Analysis
+### 2. Analysis
    - Starts by considering the statement of requirements and finishes by producing a system specification. The specification is a formal representation of what a system should do, expressed in terms that are independent of how it may be realised.
 
-#### 3. Design 
+### 3. Design 
    - Begins with a system specification and produces design documents, and provides a detailed description of how a system should be constructed.
 
-####4. Implementation
+### 4. Implementation
    - Is the construction of a computer system according to a given design document and taking account of the environment in which the system will be operating (for example specific hardware or software available for the development). Implementation may be staged, usually with an initial system than can be validated and tested before a final system is released for use.
 
-#### 5. Testing
+### 5. Testing
    - Compares the implemented system against the design documents and requirements specification and produces an acceptance report or, more usually, a list of errors and bugs that require a review of the analysis, design and implementation processes to correct (testing is usually the task that leads to the waterfall model iterating through the life cycle).
 
-#### 6. Maintenance
+### 6. Maintenance
    - Involves dealing with changes in the requirements, or the implementation environment, bug fixing or porting of the system to new environments (for example migrating a system from a standalone PC to a UNIX workstation or a networked environment). Since maintenance involves the analysis of the changes required, design of a solution, implementation and testing of that solution over the lifetime of a maintained software system, the waterfall life cycle will be repeatedly revisited.
   
 <div align="right"><a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
