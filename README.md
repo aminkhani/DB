@@ -45,6 +45,7 @@
             <li><a href="#Pros_of_Database">Pros of Database</a></li>
         </ul>
     </li>
+    <li><a href="#DIKW">DIKW</a></li>
     <li><a href="#his_db">History</a>
         <ul>
             <li><a href="#s1960s">1960s</a></li>
@@ -115,12 +116,12 @@
   - Data that is organized into a **predefined data model**. The data model defines the **type** of data, the **relationships** between different types of data, and the **constraints** that apply to the data. Examples of structured data include **customer records**, **product records**, and **order records**.
 
 - ### Quasi-Structured Data
-  -  Is **more of a textual data with erratic data formats**. It can be formatted. with effort, tools, and time. This data type includes web clickstream data such as Google. searches.
+  -  Is **more of a textual data with erratic data formats**. It can be formatted. with effort, tools, and time. This data type includes web clickstream data such as Google searches.
 - ### Semi-Structured Data
   - Is a form of structured data that does not obey the tabular structure of data models associated with relational databases or other forms of data tables, but nonetheless contains tags or other markers to separate semantic elements and enforce hierarchies of records and fields within the data.
 - ### Unstructured Data
   - Data that does not conform to a **predefined data model**. Examples of unstructured data include **text**, **images**, **audio**, and **video**.
-  - 
+
 <img src="Pic/datastrcuture.webp">
 
 <h2 id="Pros_of_Database">Pros of Database:</h2>
@@ -138,6 +139,31 @@
 
 <div align="right"><a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
 
+<h1 id="DIKW">DIKW</h1>
+
+The **DIKW Pyramid represents** the **relationships between data**, **information**, **knowledge** and **wisdom**. Each **building block** is a **step** towards a higher level - **first** comes **data**, **then** is **information**, **next** is **knowledge** and **finally** comes **wisdom**. Each step answers different questions about the initial data and adds value to it. The more we enrich our data with meaning and context, the more knowledge and insights we get out of it so we can take better, informed and data-based decisions
+- ### Data
+<br>
+<img src="Pic/Data_01.png">
+<br>
+
+- ### Information
+<br>
+<img src="Pic/Information_01.png">
+<br>
+
+- ### Knowledge
+<br>
+<img src="Pic/Knowledge_02.png">
+<br>
+
+- ### Wisdom
+<br>
+<img src="Pic/Wisdom_01.png">
+<br>
+
+
+<div align="right"><a href="#top" targert="_blacnk"><img src="https://img.shields.io/badge/Back to up-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
 <h1 id="his_db">History of Database</h1>
 
 <span id="s1960s"></span>
